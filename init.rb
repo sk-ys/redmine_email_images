@@ -1,6 +1,3 @@
-require 'htmlentities'
-coder = HTMLEntities.new
-
 Redmine::Plugin.register :redmine_email_images do
   name 'Redmine Email Images plugin'
   author 'Dmitriy Kalachev'
