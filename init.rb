@@ -1,6 +1,5 @@
 require 'htmlentities'
 coder = HTMLEntities.new
-FIND_IMG_SRC_PATTERN = /(<img[^>]+src=")(?:#{Setting.protocol + ":\d*//[^/]+"})?#{Redmine::Utils.relative_url_root}([^"]+)("[^>]*>)/
 
 Redmine::Plugin.register :redmine_email_images do
   name 'Redmine Email Images plugin'
