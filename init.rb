@@ -1,3 +1,5 @@
+require File.expand_path('lib/email_send_patch', __dir__)
+
 Redmine::Plugin.register :redmine_email_images do
   name 'Redmine Email Images plugin'
   author 'Dmitriy Kalachev'
